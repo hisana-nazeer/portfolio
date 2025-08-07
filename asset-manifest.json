@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio/static/js/main.fd044799.js",
+    "main.js": "/portfolio/static/js/main.5b80a489.js",
     "static/media/edtech.png": "/portfolio/static/media/edtech.9cbd311f8ce0d533781a.png",
     "static/media/pp.png": "/portfolio/static/media/pp.e85d10ca1964cf578a05.png",
     "static/media/shopfresh.png": "/portfolio/static/media/shopfresh.c2c935cc75caf11dfc10.png",
     "static/media/HeroImage.jpg": "/portfolio/static/media/HeroImage.1255b687da2cbf5698c5.jpg",
+    "static/media/MamaBloom.png": "/portfolio/static/media/MamaBloom.589e147fe348e607bc40.png",
     "static/media/C.png": "/portfolio/static/media/C.88eb3e0c2506ee30866e.png",
     "static/media/DS.png": "/portfolio/static/media/DS.7b7452d329536b74df1b.png",
     "static/media/tkm.jpeg": "/portfolio/static/media/tkm.b22723580d3c8859f79a.jpeg",
     "static/media/amrita.png": "/portfolio/static/media/amrita.c67663d787d189d9cb31.png",
     "index.html": "/portfolio/index.html",
     "main.bf538fe7.css.map": "/portfolio/static/css/main.bf538fe7.css.map",
-    "main.fd044799.js.map": "/portfolio/static/js/main.fd044799.js.map"
+    "main.5b80a489.js.map": "/portfolio/static/js/main.5b80a489.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.fd044799.js"
+    "static/js/main.5b80a489.js"
   ]
 }
