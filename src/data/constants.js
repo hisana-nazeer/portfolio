@@ -11,24 +11,22 @@ import amrita from "../images/amrita.png"
 import tkm from "../images/tkm.jpeg"
 import edtech from "../images/edtech.png"
 import shopfresh from "../images/shopfresh.png"
+import MamaBloom from "../images/MamaBloom.png"
 
 export const Bio = {
     name: "Hisana Nazeer",
     roles: [
       
-     "Software  Developer",
-      "Web Developer and a",
-      "Machine learning enthusiasist",
+    
+      "AI Full Stack Developer",
+      
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-    // github: "https://github.com/rishavchanda",
-    resume:
-      "https://drive.google.com/file/d/1uy-Zg3ZhcvvGL2OXWntfAg-Q42j8ZzX_/view?usp=drive_link",
+      " Hello 👋🏼, I am Hisana, an innovative and future-focused Software Engineer with a deep passion for AI-powered applications and Machine Learning, I am based in Canada, I enjoy building AI-based applications and integrating intelligent APIs to craft smarter, more responsive user experiences.  My broader vision is to build with purpose — leveraging technology to create meaningful, human-centered impact. Let’s connect if you’re working on impactful tech who combines strong technical skills with a mission-driven mindset.",    github: "https://github.com/hisana-nazeer",
+    // resume:
+      // "https://drive.google.com/file/d/1NA2Nlbwk788iEGFRj46j3x8DtqmGlv4P/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/hisana-nazeer/",
-    // twitter: "https://twitter.com/RishavChanda",
-    // insta: "https://www.instagram.com/rishav_chanda/",
-    // facebook: "https://www.facebook.com/rishav.chanda.165/",
+    
   };
   
   export const skills = [
@@ -47,7 +45,7 @@ export const Bio = {
         },
         {
           name: "JavaScript",
-          image:
+        image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
 
@@ -77,7 +75,7 @@ export const Bio = {
           image:
             "data:image/png;base64,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",
         },
-       
+        
       ],
     },
     {
@@ -149,7 +147,24 @@ export const Bio = {
       ],
     },
    
-
+    {
+      title: "Artificial Intelligence & Data Analytics",
+      skills: [
+        {
+          name: "Machine Learning",
+          image: AI2 // Replace with actual image link
+        },
+        {
+          name: "Data Science",
+          image: DS // Replace with actual image link
+        },
+        {
+          name: "Deep Learning",
+          image: AI2// Optional, if you want to include Deep Learning separately
+        },
+        // ... other AI-related skills if any
+      ],
+    },
 
 
 
@@ -158,16 +173,8 @@ export const Bio = {
     {
       title: "Others",
       skills: [
-        {
-          name: "Machine Learning",
-          image: AI2
-          
-        }, 
-        {
-          name: "Data Science",
-          image: DS
-          
-        }, 
+       
+     
         {
           name: "Git",
           image:
@@ -206,8 +213,8 @@ export const Bio = {
       role: "Machine Learning Enthusiasist",
       company: " Publication - IEEE ",
       date: "January 2023 - October 2023 " ,
-      desc: "Contributed to the publication titled 'Hybridized Statistical and Machine Learning Algorithms for Enhanced Stock Price Forecasting." ,
-      doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+      desc: "Contributed to the publication titled 'Hybridized Statistical and Machine Learning Algorithms for Enhanced Stock Price Forecasting'." ,
+      doc: "https://drive.google.com/file/d/1YT_5bI7o0aGxamx_gJ5PlUYFDRspZZF1/view",
       skills: [
         "ARIMA",
         "SARIMA",
@@ -231,7 +238,69 @@ export const Bio = {
         "JavaScript",
         
       ],
-      doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+      // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    },
+    
+    {
+      id: 2,
+      img: tesz,
+      role: "Junior Developer",
+      company: "Tesz.in",
+      date: "June 2021 - August 2021",
+      desc: "Developed algorithms for efficient query routing, enhanced team collaboration and problem-solving, and embraced new technologies, contributing to the startup's recognition as the best in Kerala for three years.",
+      // doc:"https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+      skills: [
+        "ReactJS",
+        
+        "NodeJs",
+        "Material UI",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        
+        "AWS",
+        "MongoDB",
+      ],
+      
+    },
+    
+    
+    
+    
+  ];
+  export const certifications = [
+    {
+      id: 0,
+      img: ieee,
+      role: "Machine Learning Enthusiasist",
+      company: " Publication - IEEE ",
+      date: "January 2023 - October 2023 " ,
+      desc: "Contributed to the publication titled 'Hybridized Statistical and Machine Learning Algorithms for Enhanced Stock Price Forecasting'." ,
+      doc: "https://drive.google.com/file/d/1YT_5bI7o0aGxamx_gJ5PlUYFDRspZZF1/view",
+      skills: [
+        "ARIMA",
+        "SARIMA",
+        "LSTM",
+        "GRU"
+        
+      ],
+    }, {
+      id: 1,
+      img: Eduzell,   
+      role: "Junior Developer",
+      company: "Eduzell Technologies and Solutions",
+      date: "May 2023 - September 2023",
+      desc: "Engaged in design collaborations for visually appealing interfaces, developed an e-course website using ReactJS, contributed ideas in team meetings for workflow efficiency, and maintained best coding practices for clean, functional code.",
+      skills: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase",
+        "JavaScript",
+        
+      ],
+      // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     
     {
@@ -241,7 +310,7 @@ export const Bio = {
       company: "Tesz.in",
       date: "June 2020 - August 2021",
       desc: "Reduced website load times by 67%, leading to a 20% increase in user engagement, developed algorithms for efficient query routing, enhanced team collaboration and problem-solving, and embraced new technologies, contributing to the startup's recognition as the best in Kerala for three years.",
-      doc:"https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+      // doc:"https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
       skills: [
         "ReactJS",
         
@@ -264,7 +333,7 @@ export const Bio = {
       company: "Tesz.in",
       date: "Dec 2019 - May 2020 " ,
       desc: "Contributing to different open-source projects and learn from industry experts",
-      doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+      // doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
       skills: [
         "Presentation and Communication",
         
@@ -277,7 +346,6 @@ export const Bio = {
     
     
   ];
-  
   export const education = [
     {
       id: 0,
@@ -301,12 +369,33 @@ export const Bio = {
   ];
   
   export const projects = [
+
+    {
+      id: 4,
+      title: "MamaBloom ",
+      date: "Jun 2025 - Jul 2025",
+      description: "A Companion App for New Moms-powered by AI. MamaBloom is a safe digital space designed exclusively for new moms to express, reflect, and find emotional support — powered by AI.",
+        
+         image:MamaBloom,
+      tags: [
+       
+        "React Js",
+        "Next Js",
+        "Firebase",
+        "Tailwind CSS",
+        "OpenAI GPT-4",
+      ],
+      category: "web app",
+      github: "https://github.com/hisana-nazeer/MamaBloom",
+      webapp: "https://mamabloom.vercel.app/",
+     },
+    
     {
       id: 9,
       title: "Shopfresh ",
       date: "Jun 2023 - Jul 2023",
       description:
-        "Shopfresh  is a e-commerce web application. It provides a user-friendly interface for customers to shopkeep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+        "Shopfresh  is an e-commerce web application. It provides a user-friendly interface for customers to shop products online.",
       image:shopfresh,
       tags: [
        
@@ -318,7 +407,20 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/hisana-nazeer/shopFresh",
-      webapp: "https://trackify.duckdns.org",
+      webapp: "https://github.com/hisana-nazeer/shopFresh",
+     },
+    {
+      id: 3,
+      title: "Hybridizing Statistical and Machine Learning Algorithm for Enhanced Stock Price Forecasting",
+      date: "Jan 2023 - October 2023",
+      description:
+        "This paper presents a hybrid prediction approach for stock price forecasting by combining Autoregressive Integrated Moving Average (ARIMA) and Seasonal Autoregressive Integrated Moving Average (SARIMA) with Long Short-Term Memory (LSTM) or Gated Recurrent Unit (GRU) models to create ensemble models.",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-3Ktjz_FaPCbavckpSKPsPNCk_4spRxZqkg&usqp=CAU",
+      tags: ["ARIMA", "GRU", "SARIMA", "LSTM", "RNN"],
+      category: "android app",
+      github: "https://github.com/hisana-nazeer/IEEE-paper",
+      webapp: "https://ieeexplore.ieee.org/document/10353309",
     },
     {
       id: 0,
@@ -328,10 +430,10 @@ export const Bio = {
         "The eCourses website is an engaging online education platform offering a wide array of digital courses,a user-friendly interface,catering to both casual learners and professionals",
       image:
         edtech,
-      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
       category: "web app",
       github: "https://github.com/hisana-nazeer/EdTechWebsite",
-      webapp: "https://podstream.netlify.app/",
+      webapp: "https://github.com/hisana-nazeer/EdTechWebsite",
       
     },
     {
@@ -359,26 +461,14 @@ export const Bio = {
       description:
         "Developed a machine learning model using graph convolutional neural networks to classify chemical compounds into drug-like and non-drug-like categories.",
       image:
-        "",
-      tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+        "https://miro.medium.com/v2/resize:fit:1200/1*6lwhL_IWiggHS9eUfv7Qdg.png",
+      tags: ["Python", "Keras", "PyTorch","Graph Convolution Neural Network"],
       category: "machine learning",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://brain-tumor.netlify.app/",
+      github: "https://github.com/hisana-nazeer/Drug-and-non-drug-molecule-classification-using-GNN",
+      webapp: "https://github.com/hisana-nazeer/Drug-and-non-drug-molecule-classification-using-GNN",
       
     },
-    {
-      id: 3,
-      title: "Hybridizing Statistical and Machine Learning Algorithm for Enhanced Stock Price Forecasting",
-      date: "Dec 2021 - Apr 2022",
-      description:
-        "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-      image:
-        "",
-      tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-      category: "android app",
-      github: "https://github.com/rishavchanda/Buckoid-Android-App",
-      webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-    },
+    
     
    
     
