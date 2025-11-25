@@ -12,6 +12,7 @@ import tkm from "../images/tkm.jpeg"
 import edtech from "../images/edtech.png"
 import shopfresh from "../images/shopfresh.png"
 import MamaBloom from "../images/MamaBloom.png"
+import Valued from "../images/Valued.png"
 
 export const Bio = {
     name: "Hisana Nazeer",
@@ -207,10 +208,27 @@ export const Bio = {
   ];
   
   export const experiences = [
+     {
+      id: 4,
+      img: ieee,
+      role: "Assistant System Engineer",
+      company: " Tata Consultancy Services ",
+      date: "May 2024" ,
+      desc: "Contributed to the publication titled 'Hybridized Statistical and Machine Learning Algorithms for Enhanced Stock Price Forecasting'." ,
+      
+      skills: [
+        "ReactJS",
+        "Javascript"
+      ,
+        "GIT",
+        
+        
+      ],
+    },
     {
       id: 0,
       img: ieee,
-      role: "Machine Learning Enthusiasist",
+      role: "Machine Learning Engineer",
       company: " Publication - IEEE ",
       date: "January 2023 - October 2023 " ,
       desc: "Contributed to the publication titled 'Hybridized Statistical and Machine Learning Algorithms for Enhanced Stock Price Forecasting'." ,
@@ -369,7 +387,26 @@ export const Bio = {
   ];
   
   export const projects = [
-
+  {
+      id: 3,
+      title: "Valued ",
+      date: "Aug 2025 - Sep 2025",
+      description: "Value+ Ed reads user’s PDF resume, analyzes it with AI, and instantly delivers their estimated hire value along with strengths and improvement insights",
+       
+         image:Value+ed,
+      tags: [
+       
+        "React Js",
+        "Next Js",
+        "Firebase",
+        "Tailwind CSS",
+        "OpenAI GPT-4",
+      ],
+      category: "web app",
+      github: "https://github.com/hisana-nazeer/MamaBloom",
+      webapp: "https://mamabloom.vercel.app/",
+     },
+    
     {
       id: 4,
       title: "MamaBloom ",
