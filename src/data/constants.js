@@ -393,12 +393,12 @@ export const Bio = {
       date: "Aug 2025 - Sep 2025",
       description: "Value+ Ed reads user’s PDF resume, analyzes it with AI, and instantly delivers their estimated hire value along with strengths and improvement insights",
        
-         image:Value+ed,
+         image:Valued,
       tags: [
        
         "React Js",
         "Next Js",
-        "Firebase",
+        
         "Tailwind CSS",
         "OpenAI GPT-4",
       ],
