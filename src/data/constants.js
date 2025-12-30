@@ -6,6 +6,7 @@ import AI2 from "../images/AI2.jpeg"
 import Eduzell from "../images/Eduzell.jpeg"
 import tesz from "../images/tesz.jpeg"
 import ieee from "../images/ieee.png"
+import tcs from "../images/tcs.png"
 import pp from "../images/pp.png"
 import amrita from "../images/amrita.png"
 import tkm from "../images/tkm.jpeg"
@@ -19,7 +20,7 @@ export const Bio = {
     roles: [
       
     
-      "AI Full Stack Developer",
+      "Frontend AI Developer",
       
     ],
     description:
@@ -210,7 +211,7 @@ export const Bio = {
   export const experiences = [
      {
       id: 4,
-      img: ieee,
+      img: tcs,
       role: "Assistant System Engineer",
       company: " Tata Consultancy Services ",
       date: "May 2024" ,
@@ -403,8 +404,9 @@ export const Bio = {
         "OpenAI GPT-4",
       ],
       category: "web app",
-      github: "https://github.com/hisana-nazeer/MamaBloom",
-      webapp: "https://mamabloom.vercel.app/",
+      github: "https://github.com/hisana-nazeer/Value-Ed",
+      webapp: "https://hirevalue.vercel.app",
+      
      },
     
     {
@@ -520,3 +522,9 @@ export const Bio = {
     { year: 2020, text: "Shared my projects with the world" },
     { year: 2021, text: "Started my own platform" },
   ];
+
+  // export const  Certifications = [
+  //   { title: "Machine Learning Enthusiast",  year: "2023",  img: ieee
+
+  //   }
+  // ]
