@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
+import LifelongLearner from "./components/LifelongLearner";
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -45,6 +46,7 @@ function App() {
             <Education />
             {/* <Contact /> */}
           </Wrapper>
+          <LifelongLearner />
           <Footer />
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
