@@ -100,8 +100,8 @@ const About = () => {
         <Para>
           I started as a software engineer shipping React frontends, but kept getting
           pulled toward the math underneath. That pull led to an{' '}
-          <Highlight>IEEE-published paper on hybrid ARIMA/LSTM forecasting</Highlight>,
-          a <Highlight>graph neural network for drug discovery</Highlight>, and{' '}
+          <Highlight>IEEE-published paper on hybrid ARIMA/LSTM stockmarket price forecasting</Highlight>,
+          <Highlight>graph neural network for drug discovery</Highlight>, and{' '}
           <Highlight>two LLM-powered apps running in production today</Highlight>.
         </Para>
 
