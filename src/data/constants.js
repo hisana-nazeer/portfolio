@@ -14,6 +14,7 @@ import edtech from "../images/edtech.png"
 import shopfresh from "../images/shopfresh.png"
 import MamaBloom from "../images/MamaBloom.png"
 import Valued from "../images/Valued.png"
+import PPD from "../images/PPD.png"
 
 export const Bio = {
     name: "Hisana Nazeer",
@@ -28,6 +29,7 @@ export const Bio = {
     resume:
       "https://drive.google.com/file/d/1Ml6os0HQNLhZq3TwdmuAdr3g8_wKe9Mb/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/hisana-nazeer/",
+    calendly: "https://calendly.com/hisanasonline/30min",
   };
 
   export const skills = [
@@ -302,7 +304,7 @@ export const Bio = {
     {
       id: 5,
       img: AI2,
-      role: "Machine Learning Engineer & AI App Developer",
+      role: "Independent ML Engineer & Builder",
       company: "Independent AI Developer",
       date: "Oct 2024 – Present",
       desc: "Engineered 2 production-grade AI applications integrating OpenAI GPT-4 APIs with custom prompt workflows, improving LLM response relevance by ~20% through iterative prompt optimization and context management. Designed and deployed REST API pipelines connecting ML backends to React/Next.js frontends.",
@@ -409,7 +411,7 @@ export const Bio = {
       img: amrita,
       school: "Amrita University",
       date: "Oct 2021 – Aug 2023",
-      GPA: "3.8",
+      grade: "3.8",
       desc: "Completed Master of Computer Applications with focus on Software Development, Data Structures and Algorithms, and Machine Learning.",
       degree: "Master of Computer Applications (MCA)",
     },
@@ -418,7 +420,7 @@ export const Bio = {
       img: tkm,
       school: "APJ Abdul Kalam Technological University",
       date: "Aug 2015 – Apr 2019",
-      GPA: "3.2",
+      grade: "3.2",
       desc: "Completed Bachelor of Technology from TKM College of Engineering, affiliated with APJ Abdul Kalam Technological University.",
       degree: "Bachelor of Technology",
     },
@@ -431,7 +433,7 @@ export const Bio = {
       date: "2026",
       description:
         "Built an end-to-end binary classification model to predict postpartum depression risk using clinical survey data, applying ordinal feature engineering, SMOTE for class imbalance, and SHAP explainability. Designed and deployed a PPD risk-flagging FastAPI endpoint serving as the detection backend for Nurtural, a postpartum wellness app.",
-      image: DS,
+      image: PPD,
       tags: [
         "Python",
         "Scikit-learn",
@@ -442,8 +444,27 @@ export const Bio = {
         "Clinical ML",
       ],
       category: "machine learning",
-      github: "",
-      webapp: "",
+      github: "https://github.com/hisana-nazeer/postpartum-depression-prediction",
+      webapp: "https://ppdpredict.netlify.app/",
+    },
+      {
+      id: 4,
+      title: "MamaBloom — AI Companion for New Mothers",
+      date: "2026",
+      description:
+        "Architected an LLM-powered conversational AI app using Next.js + OpenAI API + Firebase; designed system prompts and context management to deliver emotionally supportive, domain-specific chat responses. Deployed on Vercel with Firebase Firestore for real-time data persistence across a responsive Tailwind UI.",
+      image: MamaBloom,
+      tags: [
+        "Next Js",
+        "Firebase",
+        "Tailwind CSS",
+        "OpenAI GPT-4",
+        "Firestore",
+        "Vercel",
+      ],
+      category: "web app",
+      github: "https://github.com/hisana-nazeer/MamaBloom",
+      webapp: "https://mamabloom.vercel.app/",
     },
     {
       id: 3,
@@ -464,25 +485,7 @@ export const Bio = {
       github: "https://github.com/hisana-nazeer/Value-Ed",
       webapp: "https://hirevalue.vercel.app",
     },
-    {
-      id: 4,
-      title: "MamaBloom — AI Companion for New Mothers",
-      date: "2026",
-      description:
-        "Architected an LLM-powered conversational AI app using Next.js + OpenAI API + Firebase; designed system prompts and context management to deliver emotionally supportive, domain-specific chat responses. Deployed on Vercel with Firebase Firestore for real-time data persistence across a responsive Tailwind UI.",
-      image: MamaBloom,
-      tags: [
-        "Next Js",
-        "Firebase",
-        "Tailwind CSS",
-        "OpenAI GPT-4",
-        "Firestore",
-        "Vercel",
-      ],
-      category: "web app",
-      github: "https://github.com/hisana-nazeer/MamaBloom",
-      webapp: "https://mamabloom.vercel.app/",
-    },
+  
     {
       id: 5,
       title: "Hybrid Stock Price Forecasting — IEEE Published Research",
