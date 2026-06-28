@@ -339,7 +339,7 @@ export const Bio = {
       img: tesz,
       role: "Junior Developer",
       company: "Tesz.in",
-      date: "Nov 2023 – Apr 2024",
+      date: "May 2023 – Apr 2024",
       desc: "Developed query-qualification algorithms and decision-routing logic that reduced average triage time by 30%, applying rule-based classification logic. Implemented 6 web flow improvements and coordinated with 4 internal teams to resolve production issues, improving release turnaround by 20%.",
       skills: [
         "React.js",
@@ -349,22 +349,22 @@ export const Bio = {
         "MongoDB",
       ],
     },
-    {
-      id: 1,
-      img: Eduzell,
-      role: "Junior Developer",
-      company: "Eduzell Technologies and Solutions",
-      date: "May 2023 – Oct 2023",
-      desc: "Built and optimized 8 React.js features for an e-learning platform; applied data-informed UX decisions that improved user flow completion rates by 12%. Reduced customer-reported defects by 25% across 30 resolved layout and content bugs through systematic cross-browser debugging.",
-      skills: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "Firebase",
-        "JavaScript",
-      ],
-    },
+    // {
+    //   id: 1,
+    //   img: Eduzell,
+    //   role: "Junior Developer",
+    //   company: "Eduzell Technologies and Solutions",
+    //   date: "May 2023 – Oct 2023",
+    //   desc: "Built and optimized 8 React.js features for an e-learning platform; applied data-informed UX decisions that improved user flow completion rates by 12%. Reduced customer-reported defects by 25% across 30 resolved layout and content bugs through systematic cross-browser debugging.",
+    //   skills: [
+    //     "React.js",
+    //     "Node.js",
+    //     "Express.js",
+    //     "MongoDB",
+    //     "Firebase",
+    //     "JavaScript",
+    //   ],
+    // },
     
     
   ];
