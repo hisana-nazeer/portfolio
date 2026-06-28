@@ -343,7 +343,8 @@ export const Bio = {
       desc: "Developed query-qualification algorithms and decision-routing logic that reduced average triage time by 30%, applying rule-based classification logic. Implemented 6 web flow improvements and coordinated with 4 internal teams to resolve production issues, improving release turnaround by 20%.",
       skills: [
         "React.js",
-        "Material UI",
+        "Next js",
+        "Tailwind CSS"
         "JavaScript",
         "AWS",
         "MongoDB",
